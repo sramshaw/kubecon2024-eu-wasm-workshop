@@ -68,6 +68,7 @@ WASI
   - people watching [this talk](https://www.youtube.com/watch?v=k3HDivg3xyc) [mention a form of](https://github.com/WebAssembly/wasi-io/issues/11) Dependency Injection or Inversion of Control
 - wasi-nn backends correspond to existing ML frameworks, e.g., Tensorflow, ONNX, OpenVINO (similar to ONNX.js)
 - [wasi-serial?](https://github.com/WebAssembly/WASI/issues/350)  
+- wasi-keyvalue : [redis used here](https://wasmcloud.com/docs/0.82/examples/cruddy) , [noname memory keystore here](https://docs.wasmtime.dev/api/src/wasmtime_wasi_keyvalue/lib.rs.html)
 - preview1
   - [monolith subset of POSIX  based on CloudABI](https://www.youtube.com/watch?v=y3x4-nQeXxc)
 - preview2
