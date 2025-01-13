@@ -125,6 +125,22 @@ Envoy
 
 spin
 
+security [from the wasmcloud cofounder](https://www.youtube.com/watch?v=70Ud9kc8J7w)
+- JWT with capabilities
+- wash is the wasmclooud cli
+
+Atym
+- [2months ago interview](https://www.youtube.com/watch?v=gMllGGVecjc)
+- details of using OCRE and WAMR on [this blog entry by Knox Lively](https://www.atym.io/post/why-i-joined-atym-bringing-devops-to-embedded-development)
+  - is it using iwasm ? see [benchmark C on iwasm compared to native C](https://00f.net/2023/01/04/webassembly-benchmark-2023/) : 2.32x execution times, not bad!
+- OCRE is the ~ mini docker format [(is open source)](https://lfedge.org/projects/ocre/)
+  - true containers in your choice of language, cloud native like
+- 1MB of memory to 1GB
+- comparable to WindRiver trying virtualization
+- Zephyr as RTOS, from Linux Foundation
+  - 
+- too heavy for M0 - M3
+- 
 
 grpc:
 - rust has tonic
