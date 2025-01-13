@@ -140,7 +140,15 @@ Atym
 - Zephyr as RTOS, from Linux Foundation
   - 
 - too heavy for M0 - M3
-- 
+
+w2c2:
+- compile wasm to file. [Great for running wasm faster than some interpreters like wasm3](https://00f.net/2023/12/11/webassembly-compilation-to-c/).
+  - 2min05s / 1min 13s  = 1.7 x copmared to wasmtime
+- great for security C => wasm => C => compile
+- fastest is iwasm anyway , also ~ 1.7x faster than wasmtime ...
+
+
+
 
 grpc:
 - rust has tonic
@@ -167,3 +175,11 @@ ONNX.js:
   - 
 
 Higress + Envoy?: Chinese platform, Alibaba
+
+news 2025:
+- [wasm to be used in existing gaps](https://thenewstack.io/see-what-webassembly-can-do-in-2025/) where containers are too big or slow
+
+languages
+- Dart to WASM: requires gcc, Dart is ~ C# for class, tuple looking record, AOT to 10MB exe, for flutter
+- Grain to WASM: lots of immutable by default types, tuples, matching joy, no rx or threads , 
+- 
