@@ -18,7 +18,7 @@ WasmCloud:
 - QoS:  at most once, at least once, exactly once
 - [dotnet impl](https://nats-io.github.io/nats.net/index.html)
 
-Wasmtime:  by Fastly, with Luke Wagner
+Wasmtime: runtime written in Rust,  by Fastly, with Luke Wagner
 - wasi standard: wasi-common, wasi-config, wasi-http, wasi-keyvalue, wasi-nn, wasi-threads
 - wit-bindgen
 - examples
@@ -30,7 +30,7 @@ Wasmtime:  by Fastly, with Luke Wagner
 - Cranelift compiler => polyglot
 - merge of [Lucet and Wasmtime](https://youtu.be/jPDMYpVUA04?t=3892)
 
-WAMR
+WAMR, based on wasm-micro-runtime by [Bytecode Alliance](https://bytecodealliance.org/), written in C/C++
 - [used by Sony for Aitrios products as per WASM IO 2024](https://www.youtube.com/watch?v=ff9KSGsxmiQ&t=755s),
   -  on very small 32bit controllers it seems, and even Risc V
   -  OS: Nuttx and maybe Zephyr in future BUT NO opensource contrib :sad:
