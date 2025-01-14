@@ -39,6 +39,12 @@ WAMR
   -  not db or blob or telemetry or sockets
   -  use of nodered ?!?! 
      -  https://github.com/phyunsj/node-red-native-addon?tab=readme-ov-file
+- IDE [plugin for vscode: WAMRIDE](https://github.com/bytecodealliance/wasm-micro-runtime/tree/main/test-tools/wamr-ide)
+  - does not require Docker Desktop on Windows, can be done via WSL
+  - lldb for interpreter debugging [is not enabled by default](https://marketplace.visualstudio.com/items?itemName=wamr-ide.wamride) , ?!?!?!
+    - the link to the instructions to rebuild it **broken**
+    - note: [releases](https://github.com/bytecodealliance/wasm-micro-runtime/releases) (still not the one for interpreter debug)
+  - 
 
 rust->[tokio](https://docs.rs/tokio/latest/tokio/#wasm-support)
 - stable: sync, macros, io-util,rt,time (requires timers from platform wasm32-wasi)
@@ -182,4 +188,5 @@ news 2025:
 languages
 - Dart to WASM: requires gcc, Dart is ~ C# for class, tuple looking record, AOT to 10MB exe, for flutter
 - Grain to WASM: lots of immutable by default types, tuples, matching joy, no rx or threads , 
+- C# rxs: Rx.NEt, UniRx , R3
 - 
