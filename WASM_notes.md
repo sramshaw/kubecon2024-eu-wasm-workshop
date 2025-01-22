@@ -1,7 +1,8 @@
 [Kubecon 2024](https://www.cncf.io/wp-content/uploads/2024/12/kubecon-na-2024-transparency-report.pdf)
 
 WasmCloud:
-- components model for composition, as opposed to modules (.wasm)
+- [components model](https://component-model.bytecodealliance.org/tutorial.html) for composition, as opposed to modules (.wasm)
+  - per language tooling (ex: [C++](https://component-model.bytecodealliance.org/language-support/c.html) )
 - capability providers
 - distributed deployment - underlying use of NATS
 - based on Wasmex , which used to wrap WASMR but [moved to Wasmtime](https://wasmcloud.com/blog/wasmtime-a-standardized-runtime-for-wasmcloud)
