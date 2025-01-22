@@ -146,6 +146,7 @@ Atym
 - Zephyr as RTOS, from Linux Foundation
   - more widely supported, and access to community integration of drivers
   - beaglebone support : [demo /tuto](https://docs.beagle.cc/boards/beagleconnect/freedom/demos-and-tutorials/using-zephyr.html)
+  - STM32U5 , [2MB kit](https://www.st.com/en/microcontrollers-microprocessors/stm32u5-series.html)
 - too heavy for M0 - M3
 - drivers must be built into the runtime
 - OCRE community [meetings caldendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/ocre?view=month) , [Core TSC](https://lists.lfedge.org/g/Ocre-TSC)
