@@ -30,7 +30,7 @@ Wasmtime: runtime written in Rust,  by Fastly, with Luke Wagner
 - Cranelift compiler => polyglot
 - merge of [Lucet and Wasmtime](https://youtu.be/jPDMYpVUA04?t=3892)
 
-WAMR, based on wasm-micro-runtime by [Bytecode Alliance](https://bytecodealliance.org/), written in C/C++
+WAMR, based on wasm-micro-runtime by [Bytecode Alliance](https://bytecodealliance.org/), written [in C/C++](https://github.com/bytecodealliance/wasm-micro-runtime)
 - [used by Sony for Aitrios products as per WASM IO 2024](https://www.youtube.com/watch?v=ff9KSGsxmiQ&t=755s),
   -  on very small 32bit controllers it seems, and even Risc V
   -  OS: Nuttx and maybe Zephyr in future BUT NO opensource contrib :sad:
@@ -44,7 +44,7 @@ WAMR, based on wasm-micro-runtime by [Bytecode Alliance](https://bytecodeallianc
   - lldb for interpreter debugging [is not enabled by default](https://marketplace.visualstudio.com/items?itemName=wamr-ide.wamride) , ?!?!?!
     - the link to the instructions to rebuild it **broken**
     - note: [releases](https://github.com/bytecodealliance/wasm-micro-runtime/releases) (still not the one for interpreter debug)
-  - 
+- [How to use WAMR with Zephyr in user mode](https://github.com/bytecodealliance/wasm-micro-runtime/tree/main/product-mini/platforms/zephyr/user-mode)
 
 rust->[tokio](https://docs.rs/tokio/latest/tokio/#wasm-support)
 - stable: sync, macros, io-util,rt,time (requires timers from platform wasm32-wasi)
