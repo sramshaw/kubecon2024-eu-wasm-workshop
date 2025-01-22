@@ -189,4 +189,23 @@ languages
 - Dart to WASM: requires gcc, Dart is ~ C# for class, tuple looking record, AOT to 10MB exe, for flutter
 - Grain to WASM: lots of immutable by default types, tuples, matching joy, no rx or threads , 
 - C# rxs: Rx.NEt, UniRx , R3
-- 
+
+wasmer: Syrus Akbary 
+- started for python : [compiling python to WASM , 2024](https://www.youtube.com/watch?v=_Gq273qvNMg)
+- django for backend, graphene for graphQL
+- wasmer edge,
+  - Cpython: yes but bad perf
+- optimize
+  - subset :
+    - rpython (as pypy, but not dynamic),
+    - codon (type deduction, LLVM IR but incompatible yet with subtyping, metaclasses),
+    - cython
+  - JIT
+    - pypy JIT (need warm up)
+  - static analysis to improve paths (only 0.5 -3 x faster)
+    - mypy
+    - nuitka
+      - python to cpython transpiler
+      - => py2wasm , 3x faster, supposedly can go faster than native in some cases
+      - 
+  
