@@ -153,7 +153,7 @@ Atym
 - OCRE community [meetings caldendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/ocre?view=month) , [Core TSC](https://lists.lfedge.org/g/Ocre-TSC)
 - https://github.com/project-ocre/ocre-runtime
 - [OCRE at linux foundation edge](https://lfedge.org/projects/ocre/)
-- option to update via bluetooth or USB
+- option to update via bluetooth or USB over CoAP (Constrained Application Protocol) (as per Jason)
 - monetize the hubs - on prem by default, also SaaS, proxy option
 - secret boot on ST32U5?
 
