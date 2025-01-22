@@ -144,8 +144,16 @@ Atym
 - 1MB of memory to 1GB
 - comparable to WindRiver trying virtualization
 - Zephyr as RTOS, from Linux Foundation
-  - 
+  - more widely supported, and access to community integration of drivers
+  - beaglebone support : [demo /tuto](https://docs.beagle.cc/boards/beagleconnect/freedom/demos-and-tutorials/using-zephyr.html)
 - too heavy for M0 - M3
+- drivers must be built into the runtime
+- OCRE community [meetings caldendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/ocre?view=month) , [Core TSC](https://lists.lfedge.org/g/Ocre-TSC)
+- https://github.com/project-ocre/ocre-runtime
+- [OCRE at linux foundation edge](https://lfedge.org/projects/ocre/)
+- option to update via bluetooth or USB
+- monetize the hubs - on prem by default, also SaaS, proxy option
+- secret boot on ST32U5?
 
 w2c2:
 - compile wasm to file. [Great for running wasm faster than some interpreters like wasm3](https://00f.net/2023/12/11/webassembly-compilation-to-c/).
@@ -191,6 +199,7 @@ languages
 - C# rxs: Rx.NEt, UniRx , R3
 
 wasmer: Syrus Akbary 
+- runs on several runtimes : V8, wasmi and WAMR
 - started for python : [compiling python to WASM , 2024](https://www.youtube.com/watch?v=_Gq273qvNMg)
 - django for backend, graphene for graphQL
 - wasmer edge,
@@ -207,5 +216,8 @@ wasmer: Syrus Akbary
     - nuitka
       - python to cpython transpiler
       - => py2wasm , 3x faster, supposedly can go faster than native in some cases
-      - 
-  
+- use WASIX to fill gaps in WASI
+- py2wasm
+- clang run in browser
+  - wasmer for build system
+-   
