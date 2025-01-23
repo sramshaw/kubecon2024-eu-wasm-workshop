@@ -124,7 +124,7 @@ W3C WASM
 - component model explained , [with illustrated interaction of 2 components](https://www.youtube.com/watch?v=MTs2tdnEbT0)
   - [What is a component and why?](https://www.youtube.com/watch?v=MTs2tdnEbT0), by Luke Wagner at Fastly
 
-WASIX:
+WASIX: by wasmer while waiting for WASI progress
 - tried to build the [grpc example](https://github.com/wasix-org/wasix-rust-examples/tree/main/wasix-grpc), not successful in build, broken 
   - see start.WASIX.sh
 
