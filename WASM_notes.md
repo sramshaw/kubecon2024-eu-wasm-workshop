@@ -101,6 +101,9 @@ WASI
   - add a wasi-httphandler to make request , add wasi:keyvalue/cacache to cache the results of calling thumbify the first time 
 - wasm-compose to compose initial component with deduced one into an deployment ready component
   - used in prod
+ 
+sandbox dependencies : [Dont get owned by your dependencies, presentation by Firefox person Shravan Narayan](https://www.youtube.com/watch?v=r7DZm5tHEeo&list=PLbzoR-pLrL6pdO2yYg4jAQAW3zd15CYO0&index=9)
+- sandbox all 3rd party libraries with RLBox
 
 [cloud deployment story](https://youtu.be/tAACYA1Mwv4?t=1407)
 - execution platform
